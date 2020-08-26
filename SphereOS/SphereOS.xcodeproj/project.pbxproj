@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4915BEFB24F5AFD80011168E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915BEFA24F5AFD80011168E /* AppDelegate.swift */; };
+		4915BEFD24F5AFD80011168E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915BEFC24F5AFD80011168E /* ContentView.swift */; };
+		4915BEFF24F5AFDB0011168E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4915BEFE24F5AFDB0011168E /* Assets.xcassets */; };
+		4915BF0224F5AFDB0011168E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4915BF0124F5AFDB0011168E /* Preview Assets.xcassets */; };
+		4915BF0524F5AFDB0011168E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4915BF0324F5AFDB0011168E /* Main.storyboard */; };
+		4915BF1124F5AFDB0011168E /* SphereOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915BF1024F5AFDB0011168E /* SphereOSTests.swift */; };
+		4915BF1C24F5AFDB0011168E /* SphereOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915BF1B24F5AFDB0011168E /* SphereOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4915BF0D24F5AFDB0011168E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4915BEEF24F5AFD80011168E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4915BEF624F5AFD80011168E;
+			remoteInfo = SphereOS;
+		};
+		4915BF1824F5AFDB0011168E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4915BEEF24F5AFD80011168E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4915BEF624F5AFD80011168E;
+			remoteInfo = SphereOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4915BEF724F5AFD80011168E /* SphereOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SphereOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4915BEFA24F5AFD80011168E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4915BEFC24F5AFD80011168E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4915BEFE24F5AFDB0011168E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4915BF0124F5AFDB0011168E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4915BF0424F5AFDB0011168E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4915BF0624F5AFDB0011168E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4915BF0724F5AFDB0011168E /* SphereOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SphereOS.entitlements; sourceTree = "<group>"; };
+		4915BF0C24F5AFDB0011168E /* SphereOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphereOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4915BF1024F5AFDB0011168E /* SphereOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereOSTests.swift; sourceTree = "<group>"; };
+		4915BF1224F5AFDB0011168E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4915BF1724F5AFDB0011168E /* SphereOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphereOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4915BF1B24F5AFDB0011168E /* SphereOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereOSUITests.swift; sourceTree = "<group>"; };
+		4915BF1D24F5AFDB0011168E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4915BEF424F5AFD80011168E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4915BF0924F5AFDB0011168E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4915BF1424F5AFDB0011168E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4915BEEE24F5AFD80011168E = {
+			isa = PBXGroup;
+			children = (
+				4915BEF924F5AFD80011168E /* SphereOS */,
+				4915BF0F24F5AFDB0011168E /* SphereOSTests */,
+				4915BF1A24F5AFDB0011168E /* SphereOSUITests */,
+				4915BEF824F5AFD80011168E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4915BEF824F5AFD80011168E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4915BEF724F5AFD80011168E /* SphereOS.app */,
+				4915BF0C24F5AFDB0011168E /* SphereOSTests.xctest */,
+				4915BF1724F5AFDB0011168E /* SphereOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4915BEF924F5AFD80011168E /* SphereOS */ = {
+			isa = PBXGroup;
+			children = (
+				4915BEFA24F5AFD80011168E /* AppDelegate.swift */,
+				4915BEFC24F5AFD80011168E /* ContentView.swift */,
+				4915BEFE24F5AFDB0011168E /* Assets.xcassets */,
+				4915BF0324F5AFDB0011168E /* Main.storyboard */,
+				4915BF0624F5AFDB0011168E /* Info.plist */,
+				4915BF0724F5AFDB0011168E /* SphereOS.entitlements */,
+				4915BF0024F5AFDB0011168E /* Preview Content */,
+			);
+			path = SphereOS;
+			sourceTree = "<group>";
+		};
+		4915BF0024F5AFDB0011168E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4915BF0124F5AFDB0011168E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4915BF0F24F5AFDB0011168E /* SphereOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4915BF1024F5AFDB0011168E /* SphereOSTests.swift */,
+				4915BF1224F5AFDB0011168E /* Info.plist */,
+			);
+			path = SphereOSTests;
+			sourceTree = "<group>";
+		};
+		4915BF1A24F5AFDB0011168E /* SphereOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4915BF1B24F5AFDB0011168E /* SphereOSUITests.swift */,
+				4915BF1D24F5AFDB0011168E /* Info.plist */,
+			);
+			path = SphereOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4915BEF624F5AFD80011168E /* SphereOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4915BF2024F5AFDB0011168E /* Build configuration list for PBXNativeTarget "SphereOS" */;
+			buildPhases = (
+				4915BEF324F5AFD80011168E /* Sources */,
+				4915BEF424F5AFD80011168E /* Frameworks */,
+				4915BEF524F5AFD80011168E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SphereOS;
+			productName = SphereOS;
+			productReference = 4915BEF724F5AFD80011168E /* SphereOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4915BF0B24F5AFDB0011168E /* SphereOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4915BF2324F5AFDB0011168E /* Build configuration list for PBXNativeTarget "SphereOSTests" */;
+			buildPhases = (
+				4915BF0824F5AFDB0011168E /* Sources */,
+				4915BF0924F5AFDB0011168E /* Frameworks */,
+				4915BF0A24F5AFDB0011168E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4915BF0E24F5AFDB0011168E /* PBXTargetDependency */,
+			);
+			name = SphereOSTests;
+			productName = SphereOSTests;
+			productReference = 4915BF0C24F5AFDB0011168E /* SphereOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4915BF1624F5AFDB0011168E /* SphereOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4915BF2624F5AFDB0011168E /* Build configuration list for PBXNativeTarget "SphereOSUITests" */;
+			buildPhases = (
+				4915BF1324F5AFDB0011168E /* Sources */,
+				4915BF1424F5AFDB0011168E /* Frameworks */,
+				4915BF1524F5AFDB0011168E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4915BF1924F5AFDB0011168E /* PBXTargetDependency */,
+			);
+			name = SphereOSUITests;
+			productName = SphereOSUITests;
+			productReference = 4915BF1724F5AFDB0011168E /* SphereOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4915BEEF24F5AFD80011168E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = DewdLabs;
+				TargetAttributes = {
+					4915BEF624F5AFD80011168E = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					4915BF0B24F5AFDB0011168E = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 4915BEF624F5AFD80011168E;
+					};
+					4915BF1624F5AFDB0011168E = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 4915BEF624F5AFD80011168E;
+					};
+				};
+			};
+			buildConfigurationList = 4915BEF224F5AFD80011168E /* Build configuration list for PBXProject "SphereOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4915BEEE24F5AFD80011168E;
+			productRefGroup = 4915BEF824F5AFD80011168E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4915BEF624F5AFD80011168E /* SphereOS */,
+				4915BF0B24F5AFDB0011168E /* SphereOSTests */,
+				4915BF1624F5AFDB0011168E /* SphereOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4915BEF524F5AFD80011168E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4915BF0524F5AFDB0011168E /* Main.storyboard in Resources */,
+				4915BF0224F5AFDB0011168E /* Preview Assets.xcassets in Resources */,
+				4915BEFF24F5AFDB0011168E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4915BF0A24F5AFDB0011168E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4915BF1524F5AFDB0011168E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4915BEF324F5AFD80011168E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4915BEFD24F5AFD80011168E /* ContentView.swift in Sources */,
+				4915BEFB24F5AFD80011168E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4915BF0824F5AFDB0011168E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4915BF1124F5AFDB0011168E /* SphereOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4915BF1324F5AFDB0011168E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4915BF1C24F5AFDB0011168E /* SphereOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4915BF0E24F5AFDB0011168E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4915BEF624F5AFD80011168E /* SphereOS */;
+			targetProxy = 4915BF0D24F5AFDB0011168E /* PBXContainerItemProxy */;
+		};
+		4915BF1924F5AFDB0011168E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4915BEF624F5AFD80011168E /* SphereOS */;
+			targetProxy = 4915BF1824F5AFDB0011168E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4915BF0324F5AFDB0011168E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4915BF0424F5AFDB0011168E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4915BF1E24F5AFDB0011168E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4915BF1F24F5AFDB0011168E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4915BF2124F5AFDB0011168E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SphereOS/SphereOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SphereOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SphereOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = DewdLabs.SphereOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4915BF2224F5AFDB0011168E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SphereOS/SphereOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SphereOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SphereOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = DewdLabs.SphereOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4915BF2424F5AFDB0011168E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SphereOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = DewdLabs.SphereOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SphereOS.app/Contents/MacOS/SphereOS";
+			};
+			name = Debug;
+		};
+		4915BF2524F5AFDB0011168E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SphereOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = DewdLabs.SphereOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SphereOS.app/Contents/MacOS/SphereOS";
+			};
+			name = Release;
+		};
+		4915BF2724F5AFDB0011168E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SphereOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DewdLabs.SphereOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SphereOS;
+			};
+			name = Debug;
+		};
+		4915BF2824F5AFDB0011168E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SphereOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DewdLabs.SphereOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SphereOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4915BEF224F5AFD80011168E /* Build configuration list for PBXProject "SphereOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4915BF1E24F5AFDB0011168E /* Debug */,
+				4915BF1F24F5AFDB0011168E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4915BF2024F5AFDB0011168E /* Build configuration list for PBXNativeTarget "SphereOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4915BF2124F5AFDB0011168E /* Debug */,
+				4915BF2224F5AFDB0011168E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4915BF2324F5AFDB0011168E /* Build configuration list for PBXNativeTarget "SphereOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4915BF2424F5AFDB0011168E /* Debug */,
+				4915BF2524F5AFDB0011168E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4915BF2624F5AFDB0011168E /* Build configuration list for PBXNativeTarget "SphereOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4915BF2724F5AFDB0011168E /* Debug */,
+				4915BF2824F5AFDB0011168E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4915BEEF24F5AFD80011168E /* Project object */;
+}
